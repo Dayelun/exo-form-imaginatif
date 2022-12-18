@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Irish Grover', cursive;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 970px;
+}
+
+h2 {
+    color: white;
+    position: absolute;
+    left: 600px;
+    top: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.containers {
+    width: 800px;
+    position: absolute;
+    top: 420px;
+    left: 350px;
+    right: 50%;
+    transform: translate(50%,-50%);
+}
+
+.containers__form {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+
+}
+
+input {
+    font-family: 'Irish Grover', cursive;
+    outline: none;
+}
+
+.containers__form__radio {
+    margin-bottom: 14px;
+}
+
+#femmeInput {
+    margin-left: 0;
+}
+
+.containers__form__identity {
+    margin-bottom: 14px;
+
+}
+
+#prenomInput {
+    width: 200px;
+    height: 20px;
+    background-color: rgb(255, 255, 255, 0);
+    border: solid rgb(255, 255, 255, 0.1);
+    border-radius: 10%;
+    font-size: 0.8em;
+    color: white;
+}
+
+.containers__form__lastname {
+    margin-left: 22px;
+}
+
+#nomInput {
+    width: 200px;
+    height: 20px;
+    background-color: rgb(255, 255, 255, 0);
+    border: solid rgb(255, 255, 255, 0.1);
+    border-radius: 10%;
+    font-size: 0.8em;
+    color: white;
+}
+
+#naissanceInput {
+    margin-bottom: 14px;
+    width: 200px;
+    height: 20px;
+    background-color: rgb(255, 255, 255, 0);
+    border: solid rgb(255, 255, 255, 0.1);
+    border-radius: 10%;
+    font-size: 0.8em;
+    color: white;
+}
+
+#adresseInput {
+    margin-bottom: 14px;
+    width: 200px;
+    height: 20px;
+    background-color: rgb(255, 255, 255, 0);
+    border: solid rgb(255, 255, 255, 0.1);
+    border-radius: 10%;
+    font-size: 0.8em;
+    color: white;
+}
+
+.containers__form__postal {
+    margin-left: 22px;
+}
+
+#postalInput {
+    width: 200px;
+    height: 20px;
+    background-color: rgb(255, 255, 255, 0);
+    border: solid rgb(255, 255, 255, 0.1);
+    border-radius: 10%;
+    font-size: 0.8em;
+    color: white;
+}
+
+.containers__form__city {
+    margin-bottom: 14px;
+}
+
+#villeInput {
+    margin-bottom: 14px;
+    width: 200px;
+    height: 20px;
+    background-color: rgb(255, 255, 255, 0);
+    border: solid rgb(255, 255, 255, 0.1);
+    border-radius: 10%;
+    font-size: 0.8em;
+    color: white;
+}
+
+.containers__form__number {
+    margin-left: 22px;
+}
+
+#numberInput {
+    width: 150px;
+    height: 20px;
+    background-color: rgb(255, 255, 255, 0);
+    border: solid rgb(255, 255, 255, 0.1);
+    border-radius: 10%;
+    font-size: 0.8em;
+    color: white;
+}
+
+#mailInput {
+    width: 190px;
+    height: 20px;
+    margin-bottom: 22px;
+    color: rgb(255, 255, 255, 1);
+    background-color: rgb(255, 255, 255, 0);
+    border: solid rgb(255, 255, 255, 0.1);
+    border-radius: 10%;
+    font-size: 0.8em;
+    color: white;
+}
+
+.containers__form__news {
+    font-size: 20px;
+    margin-bottom: 22px;
+}
+
+button {
+    font-family: 'Irish Grover', cursive;
+    width: 110px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, 0);
+    border: solid rgb(255, 255, 255, 0.1);
+    font-size: 0.8em;
+    color: white;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.form__containers__p {
+    font-size: 20px;
+}
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Noël</title>
+    <link rel="stylesheet" href="form-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <img src="/parchemin-noel.png" alt="parchemin-noel">
+    <h2>Inscription au dîner de Noël</h2>
+    <div class="containers">
+
+        <div class="containers__form">
+            <form action="#" method="post">
+                <div class="containers__form__radio">
+                    <input type="radio" name="input" id="femmeInput">
+                    <label for="femmeInput">Mme.</label>
+                    <input type="radio" name="input" id="hommeInput">
+                    <label for="hommeInput">Mr.</label>
+                    <input type="radio" name="input" id="autreInput">
+                    <label for="autreInput">Autres</label>
+                </div>
+
+                <div class="containers__form__identity">
+                    <label for="prenomInput">Prénom* :</label>
+                    <input type="text" name="prenomInput" id="prenomInput">
+                    <label class="containers__form__lastname" for="nomInput">Nom* :</label>
+                    <input type="text" name="nomInput" id="nomInput">
+                </div>
+
+                <label for="naissanceInput">Date de naissance* :</label>
+                <input type="date" name="naissanceInput" id="naissanceInput" min="1900-01-01" max="2030-12-31">
+                
+                <div class="containers__form__address">
+                    <label for="adresseInput">Adresse* :</label>
+                    <input type="text" name="adresseInput" id="adresseInput">
+                    <label class="containers__form__postal" for="postalInput">Code postal* :</label>
+                    <input type="text" name="postalInput" id="postalInput">
+                    <label class="containers__form__city" for="villeInput">Ville* :</label>
+                    <input type="text" name="villeInput" id="villeInput">
+                </div>
+                
+                <div class="containers__form__mail">
+                    <label for="mailInput">Adresse email* :</label>
+                    <input type="email" name="mailInput" id="mailInput" placeholder="monnom@hotmail.fr">
+                    <label class="containers__form__number" for="numberInput">Téléphone* :</label>
+                    <input type="tel" name="numberInput" id="numberInput" placeholder="06 06 06 06 06">
+                </div>
+
+                <div class="containers__form__news">
+                    <input type="checkbox" id="newsInput" name="newsInput">
+                    <label for="newsInput">S'abonner à la newsletter afin de recevoir les prochaines dates d'évennements.</label>
+                </div>
+
+                <button type="submit">Envoyer</button>
+                <p class="form__containers__p">* : Champs obligatoire</p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
